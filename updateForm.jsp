@@ -9,8 +9,8 @@
 	String pwd = request.getParameter("pwd");	
 	
 	Class.forName("org.mariadb.jdbc.Driver");
-	String url ="jdbc:mariadb://localhost:3306/jspdb";
-	String user ="jsp";
+	String url ="jdbc:mariadb://localhost:3306/jmaxdb";
+	String user ="jmax";
 	String password ="1111";
 	Connection con = DriverManager.getConnection(url, user, password);
 	
